@@ -8,7 +8,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: PP mori;
-    color:#fff
 }
 
 html, body {
@@ -23,6 +22,7 @@ html, body {
 .page1{
     min-height: 100vh;
     width: 100%;
+    color:#fff
 }
 
 #nav{
@@ -69,7 +69,65 @@ html, body {
 
 .page1>video{
     width: 60%;
-    margin-left: 20%;
     margin-right: 20%;
     margin-top: 10vh;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.page2{
+    min-height: 150vh;
+    width: 100;
+    color: black;
+    padding: 10vw 5vw;
+}
+
+.page2 h1{
+    font-size: 7.5vw;
+    font-weight: 300;
+}
+
+.page2-container{
+    padding-top: 10vw;
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3vw;
+}
+
+.page2-left{
+    width: 80%;
+    font-size: 2.5vw;
+}
+.page2-left h2{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+
+.page2-right{
+    width: 25%;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    align-items: center;
+    
+}
+
+.page2-right p{
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 1.9vw;
+
+}
+
+.page2-right button{
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    padding: 4px 0;
+    background-color: #edbfff;
+    color:black;
+    margin-top: 20px;
+
 }
